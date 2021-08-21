@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface StudentRepo extends JpaRepository<Student, Long>{
-    List<Student> findFirstNameContaining(String firstName);
+//    List<Student> findFirstNameContaining(String firstName);
 }

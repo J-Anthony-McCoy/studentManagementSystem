@@ -17,11 +17,17 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "first name")
+    @Column
     private String firstName;
 
-    public Student(String firstName){
+    @Column
+    private String lastName;
 
-    }
+    @Column
+    private String grade;
+
+//    public Student(String firstName){
+//
+//    }
 
 }
